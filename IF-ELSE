@@ -1,0 +1,27 @@
+program bisiesto_anio;
+
+var
+anio:integer;
+
+begin
+
+write('ingrese el anio: ');
+readln(anio);
+
+if anio < 0 then
+write('el anio debe ser positivo')
+
+
+else if anio mod 400 = 0 then
+write('el anio es bisiesto')
+
+else if anio mod 100 = 0 then
+write('el anio es bisiesto')
+
+else if anio mod 4 = 0 then
+write('el anio es bisiesto')
+
+else
+write('el anio no es bisiesto')
+
+end.
